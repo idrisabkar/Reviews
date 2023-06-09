@@ -1,10 +1,10 @@
 import '../App.css'
-import { Profile } from './profile'
+import { Review } from './review'
 
 function App() {
   return (
     <main>
-      <Profile />
+      <Review />
     </main>
   )
 }

@@ -7,8 +7,8 @@ export function Profile() {
         <div id="icon">
           <FaQuoteRight className="icon" />
         </div>
-        <div class="shadow w-h">.</div>
-        <div class="image">
+        <div className="shadow w-h">.</div>
+        <div className="image">
           <img className="w-h" src="./images/pr-02.jpg" alt="profile" />
         </div>
       </div>

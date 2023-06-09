@@ -1,3 +1,3 @@
 export function Job() {
-  return <p>Computer Engeneer</p>
+  return <p className="job">COMPUTER ENGENEER</p>
 }

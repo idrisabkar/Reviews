@@ -1,3 +1,3 @@
 export function PersonName() {
-  return <h1>Idrissa RUsongeka</h1>
+  return <h4 className="name">Idrissa RUsongeka</h4>
 }

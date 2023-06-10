@@ -1,2 +1,2 @@
 # Reviews
-reviews-by-ruso.netlify.app
+https://reviews-by-ruso.netlify.app

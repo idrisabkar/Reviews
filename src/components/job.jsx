@@ -1,3 +1,3 @@
-export function Job() {
-  return <p className="job">COMPUTER ENGENEER</p>
+export function Job(props) {
+  return <p className="job">{props.job}</p>
 }

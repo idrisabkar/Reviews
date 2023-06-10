@@ -1,6 +1,6 @@
 import { FaQuoteRight } from 'react-icons/fa'
 
-export function Profile() {
+export function Profile(props) {
   return (
     <>
       <div className="profile">
@@ -9,7 +9,7 @@ export function Profile() {
         </div>
         <div className="shadow w-h">.</div>
         <div className="image">
-          <img className="w-h" src="./images/pr-02.jpg" alt="profile" />
+          <img className="w-h" src={props.imageSrc} alt="profile" />
         </div>
       </div>
     </>

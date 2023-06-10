@@ -1,3 +1,3 @@
-export function PersonName() {
-  return <h4 className="name">Idrissa RUsongeka</h4>
+export function PersonName(props) {
+  return <h4 className="name">{props.name}</h4>
 }

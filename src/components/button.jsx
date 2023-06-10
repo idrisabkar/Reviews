@@ -1,3 +1,7 @@
-export function Button() {
-  return <button className="btn">Surprise me</button>
+export function Button(props) {
+  return (
+    <button className="btn" onClick={props.handleClick}>
+      Surprise me
+    </button>
+  )
 }
